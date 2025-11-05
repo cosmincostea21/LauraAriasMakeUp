@@ -23,14 +23,14 @@
 }
 
 .img-carrousel{
-    max-width:70vh;
-    max-height:80vh;
+    max-width:500px;
+    max-height:700px;
 }
 
 .owl-carousel{
     float: right;
-    max-width:70vh;
-    max-height:80vh;
+    max-width:500px;
+    max-height:700px;
 }
 
 .img-sobre-mi{
@@ -39,11 +39,17 @@
 }
 
 .mb-4{
-    text-align: justify;
+    text-align: left;
 }
 
 .btn-instagram{
     padding: 20px;
+}
+
+@media (max-width: 600px) {
+    #brocha{
+        display: none;
+    }
 }
 
 /*** Spinner ***/
