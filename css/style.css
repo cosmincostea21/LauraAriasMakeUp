@@ -252,6 +252,10 @@
     transition: .5s;
 }
 
+.navbar-inicio{
+    border-bottom: 4px solid #d8968e;
+}
+
 .navbar .navbar-nav .nav-link {
     margin: 0 12px;
     padding: 0;
