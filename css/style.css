@@ -1,54 +1,102 @@
 /********** Template CSS **********/
 
 /**Añadido por mi **/
-#brocha{
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-icon {
+    opacity: 1;
+}
+
+.gallery-icon .btn {
+    border-radius: 50%;
+}
+
+.small-gallery-item img {
+    height: 200px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 30px;
+    margin: 0 5px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #0d6efd;
+}
+
+#brocha {
     width: 100px;
     height: 100px;
 }
-.logo{
+
+.logo {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-size: 50px;
-    font-weight:400;
+    font-weight: 400;
     font-style: normal;
     color: white;
 }
 
-.logo-footer{
+.logo-footer {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-size: 8vh;
-    font-weight:400;
+    font-weight: 400;
     font-style: normal;
     color: white;
 }
 
-.img-carrousel{
-    max-width:500px;
-    max-height:700px;
+.img-carrousel {
+    max-width: 500px;
+    max-height: 700px;
 }
 
-.owl-carousel{
+.owl-carousel {
     float: right;
-    max-width:500px;
-    max-height:700px;
+    max-width: 500px;
+    max-height: 700px;
 }
 
-.img-sobre-mi{
+.img-sobre-mi {
     width: 380px;
     height: 360px;
 }
 
-.mb-4{
+.mb-4 {
     text-align: left;
 }
 
-.btn-instagram{
+.btn-instagram {
     padding: 20px;
 }
 
 @media (max-width: 600px) {
-    #brocha{
+    #brocha {
         display: none;
     }
 }
@@ -77,17 +125,17 @@
 
 /*** Fonts ***/
 .font-work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .font-playfair-display {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .font-dancing-script {
@@ -218,7 +266,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
+    .navbar .navbar-nav .nav-link {
         margin-left: 0;
         padding: 10px 0;
     }
@@ -264,19 +312,19 @@
         max-width: 100% !important;
     }
 
-    .hero-header .hero-header-text  {
+    .hero-header .hero-header-text {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .hero-header .hero-header-text  {
+    .hero-header .hero-header-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .hero-header .hero-header-text  {
+    .hero-header .hero-header-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -291,7 +339,7 @@
 }
 
 .header-carousel .owl-nav .owl-prev,
-.header-carousel .owl-nav .owl-next{
+.header-carousel .owl-nav .owl-next {
     position: relative;
     margin-left: 2px;
     width: 60px;
@@ -440,11 +488,11 @@
 .team-item img {
     transition: .5s;
 }
-  
+
 .team-item:hover img {
     transform: scale(1.2);
 }
-  
+
 .team-overlay {
     position: absolute;
     padding: 30px;
