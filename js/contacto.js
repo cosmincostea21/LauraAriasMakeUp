@@ -9,7 +9,7 @@
 
       emailjs.sendForm('service_7r7fpcd', 'template_xypm3rf', this)
         .then(() => {
-          alert('✅ Correo enviado correctamente');
+          alert('Correo enviado correctamente');
           this.reset();
         }, (error) => {
           console.error('Error:', error);
