@@ -3,45 +3,44 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuButtons = document.querySelectorAll("#galleryMenu button");
 
   const galleries = {
-    bodas: [
-      "img/gallery-1.jpg",
-      "img/gallery-2.jpg",
-      "img/gallery-3.jpg",
-      "img/gallery-4.jpg",
-      "img/gallery-5.jpg",
-      "img/gallery-6.jpg"
+    eventos: [
+      "img/Eventos/gallery-1.jpg",
+      "img/Eventos/gallery-2.jpg",
+      "img/Eventos/gallery-3.jpg",
+      "img/Eventos/gallery-4.jpg",
+      "img/Eventos/gallery-5.jpg",
+      "img/Eventos/gallery-6.jpg"
     ],
-    cumpleaños: [
-      "img/birthday-1.jpg",
-      "img/birthday-2.jpg",
-      "img/birthday-3.jpg",
-      "img/birthday-4.jpg",
-      "img/birthday-5.jpg",
-      "img/birthday-6.jpg"
+    efectos: [
+      "img/Efectos/efectos-1.jpeg",
+      "img/Efectos/efectos-2.jpeg",
+      "img/Efectos/efectos-3.jpeg",
+      "img/Efectos/efectos-4.jpeg",
+      "img/Efectos/efectos-5.jpeg",
+      "img/Efectos/efectos-6.jpeg"
     ],
-    corporativos: [
-      "img/event-1.jpg",
-      "img/event-2.jpg",
-      "img/event-3.jpg",
-      "img/event-4.jpg",
-      "img/event-5.jpg",
-      "img/event-6.jpg"
-    ]
+    artistico: [
+      "img/Artistico/artistico-1.jpeg",
+      "img/Artistico/artistico-2.jpeg",
+      "img/Artistico/artistico-3.jpeg",
+      "img/Artistico/artistico-4.jpeg",
+      "img/Artistico/artistico-5.jpeg",
+      "img/Artistico/artistico-6.jpeg"
+    ],
+    pintacaras: [
+      "img/Pintacaras/pintacaras-1.jpeg",
+      "img/Pintacaras/pintacaras-2.jpeg",
+      "img/Pintacaras/pintacaras-3.jpeg",
+    ],
+
   };
 
   function renderGallery(category) {
     galleryContainer.innerHTML = "";
-
-    galleries[category].forEach((src, index) => {
-      // Las tres últimas fotos tendrán un tamaño más pequeño
-      const isSmall = index >= galleries[category].length - 3;
-
-      // Control de columnas
-      const colClass = isSmall ? "col-md-2" : (index % 3 === 0 ? "col-md-6" : "col-md-3");
-
+    galleries[category].forEach((src) => {
       galleryContainer.innerHTML += `
-        <div class="${colClass} mb-0">
-          <div class="gallery-item ${isSmall ? 'small-gallery-item' : ''}">
+        <div class="col-md-4 col-sm-6">
+          <div class="gallery-item">
             <img src="${src}" class="img-fluid" alt="">
             <div class="gallery-icon">
               <a href="${src}" data-lightbox="${category}" class="btn btn-primary btn-lg-square">
@@ -54,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  renderGallery("bodas");
+  renderGallery("eventos");
 
   menuButtons.forEach(btn => {
     btn.addEventListener("click", () => {
