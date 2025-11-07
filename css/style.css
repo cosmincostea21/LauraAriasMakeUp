@@ -223,6 +223,15 @@
     margin-bottom: 4rem !important;
 }
 
+#enlace-insta{
+    text-decoration: none;
+    color: #000;
+}
+
+#enlace-insta:hover{
+    color: #d8968e;
+}
+
 @media (max-width: 600px) {
     #brocha {
         display: none;
@@ -232,6 +241,10 @@
         width: 100%;
         margin: auto;
         margin-bottom: 50px;
+    }
+
+    .titulo{
+        font-size: 60px !important;
     }
 
     .seccion-tarjeta{
