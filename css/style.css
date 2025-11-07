@@ -1,8 +1,89 @@
 /********** Template CSS **********/
+/*Estilo componente libro*/
+
+/* From Uiverse.io by eslam-hany */
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 220px;
+    height: 300px;
+    background-color: #F8F7F4;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+}
+
+.cover {
+    top: 0;
+    position: absolute;
+    background-color: #d8968e;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+}
+
+.texto-libro {
+    font-size: 40px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.img-laura {
+    border-radius: 10%;
+    padding: 10px;
+}
+
+
+
+/*Estilo componente libro fin*/
 
 /**Añadido por mi **/
 
-.text-center{
+.text-center {
     text-align: center !important;
 }
 
@@ -106,6 +187,11 @@
     padding: 20px;
 }
 
+.subindice{
+    font-size: 30px;
+    margin-bottom: 20px ;
+}
+
 #grupo {
     display: inline;
     padding-right: 30px;
@@ -120,9 +206,49 @@
     box-shadow: rgba(61, 31, 48, 0.562) 0px 6px 12px -2px, rgba(94, 41, 78, 0.3) 0px 3px 7px -3px;
 }
 
+.tarjeta-experiencia-clientes{
+    margin-top: 4rem !important;
+}
+
+.about{
+    margin-top: 5rem !important;
+}
+
+.titulo{
+    font-size: 60px !important;
+    margin-bottom: 4rem !important;
+}
+
 @media (max-width: 600px) {
     #brocha {
         display: none;
+    }
+
+    .contenedor-logo-foto{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .seccion-tarjeta{
+        margin: auto;
+    }
+
+    .book{
+        width: 140%;
+    }
+
+    .img-laura{
+        padding: 10px;
+        width: 90%;
+        height: 70%;
+    }
+
+    .img-sobre-mi{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 80%;
     }
 }
 
