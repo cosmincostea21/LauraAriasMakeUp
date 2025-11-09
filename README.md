@@ -67,10 +67,6 @@ Se han definido una paleta de colores suaves, tipografía moderna y una disposic
 
 ## 👩‍🎨 Créditos
 
-**Diseño y desarrollo web:** [Tu nombre o el de tu equipo]
+**Diseño y desarrollo web:** Marius Cosmin Costea
 **Cliente:** *Laura Arias – Make Up Artist*
 **Tecnologías:** Bootstrap · EmailJS · JavaScript
-
-
-```
-```
