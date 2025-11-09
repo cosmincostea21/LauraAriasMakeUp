@@ -62,31 +62,6 @@ El sitio está compuesto por **5 páginas principales**:
 La marca se ha diseñado desde cero, buscando reflejar los valores de **elegancia, profesionalidad y cercanía**.
 Se han definido una paleta de colores suaves, tipografía moderna y una disposición limpia que destaca el trabajo de maquillaje.
 
----
-
-## 📁 Estructura de Carpetas
-
-```
-laura-arias-makeup/
-│
-├── index.html
-├── galeria.html
-├── servicios.html
-├── precios.html
-├── contacto.html
-│
-├── /css
-│   └── styles.css
-│
-├── /js
-│   └── main.js
-│
-├── /img
-│   └── (imágenes de la galería y recursos visuales)
-│
-└── /assets
-    └── (iconos, fuentes u otros recursos)
-```
 
 ---
 
