@@ -84,8 +84,11 @@ laura-arias-makeup/
 ├── /img
 │   └── (imágenes de la galería y recursos visuales)
 │
-└── /assets
-    └── (iconos, fuentes u otros recursos)
+├── /lib
+│   └── (librerias, componentes de la web)
+│
+└── /scss
+    └── (estilos librerias)
 ```
 
 ---
@@ -95,5 +98,3 @@ laura-arias-makeup/
 **Diseño y desarrollo web:** [Tu nombre o el de tu equipo]
 **Cliente:** *Laura Arias – Make Up Artist*
 **Tecnologías:** Bootstrap · EmailJS · JavaScript
-
----
