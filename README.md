@@ -95,6 +95,6 @@ laura-arias-makeup/
 
 ## 👩‍🎨 Créditos
 
-**Diseño y desarrollo web:** [Tu nombre o el de tu equipo]
+**Diseño y desarrollo web:** *Marius Cosmin Costea*
 **Cliente:** *Laura Arias – Make Up Artist*
 **Tecnologías:** Bootstrap · EmailJS · JavaScript
