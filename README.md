@@ -70,10 +70,10 @@ Se han definido una paleta de colores suaves, tipografía moderna y una disposic
 laura-arias-makeup/
 │
 ├── index.html
-├── galeria.html
-├── servicios.html
-├── precios.html
-├── contacto.html
+├── gallery.html
+├── services.html
+├── prices.html
+├── contact.html
 │
 ├── /css
 │   └── styles.css
