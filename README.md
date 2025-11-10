@@ -1,6 +1,6 @@
 # 💄 Página Web - Laura Arias Make Up Artist
 
-Proyecto web desarrollado para la **make up artist Laura Arias**, donde se ha creado su **marca personal desde cero**, incluyendo diseño, estructura visual, colores y estilo general de la marca.  
+Proyecto web desarrollado para **Laura Arias make up artist**, donde se ha creado su **marca personal desde cero**, incluyendo diseño, estructura visual, colores y estilo general de la marca.  
 La web busca reflejar la elegancia, profesionalidad y creatividad del trabajo de Laura, ofreciendo a los visitantes una experiencia visual atractiva y fluida.
 
 ---
@@ -49,7 +49,7 @@ El sitio está compuesto por **5 páginas principales**:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/laura-arias-makeup.git
+   git clone https://github.com/cosmincostea21/LauraAriasMakeUp.git
    ```
 
 2. **Abrir el proyecto:**
@@ -97,6 +97,3 @@ laura-arias-makeup/
 **Tecnologías:** Bootstrap · EmailJS · JavaScript
 
 ---
-
-
-¿Quieres que te lo adapte al estilo de un **README de GitHub con emojis, formato más visual y secciones destacadas** (por ejemplo con badges de tecnologías)? Puedo hacerlo más llamativo.
