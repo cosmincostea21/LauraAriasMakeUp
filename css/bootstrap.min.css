@@ -4474,6 +4474,7 @@ fieldset:disabled .btn {
 }
 
 .navbar {
+    background-color: var(--bs-primary);
     position: relative;
     display: flex;
     flex-wrap: wrap;
