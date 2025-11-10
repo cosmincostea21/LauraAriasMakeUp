@@ -18,7 +18,7 @@ El sitio está compuesto por **5 páginas principales**:
    Muestra de trabajos realizados, con una selección de imágenes organizadas por estilos y eventos.
 
 3. **Servicios**
-   Descripción detallada de los servicios de maquillaje profesional que ofrece (social, novias, sesiones de fotos, etc.).
+   Descripción detallada de los servicios de maquillaje profesional que ofrece (social, novias, etc.).
 
 4. **Precios**
    Tabla o listado orientativo de precios, adaptado a los distintos tipos de servicios.
@@ -52,7 +52,7 @@ El sitio está compuesto por **5 páginas principales**:
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/laura-arias-makeup.git
+   https://github.com/cosmincostea21/LauraAriasMakeUp.git
    ```
 
 2. **Abrir el proyecto:**
@@ -85,20 +85,19 @@ laura-arias-makeup/
 │
 ├── /img
 │   └── (imágenes de la galería y recursos visuales)
-│
-└── /assets
-    └── (iconos, fuentes u otros recursos)
+│ 
+├── /lib
+│   └── (Librerías)
+|
+├── /scss
+     └── (estilos)
+
 ```
 
 ---
 
 ## 👩‍🎨 Créditos
 
-**Diseño y desarrollo web:** [Tu nombre o el de tu equipo]
+**Diseño y desarrollo web:** *Marius Cosmin Costea*
 **Cliente:** *Laura Arias – Make Up Artist*
 **Tecnologías:** Bootstrap · EmailJS · JavaScript
-
----
-
-
-¿Quieres que te lo adapte al estilo de un **README de GitHub con emojis, formato más visual y secciones destacadas** (por ejemplo con badges de tecnologías)? Puedo hacerlo más llamativo.
