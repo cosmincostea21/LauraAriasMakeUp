@@ -1,8 +1,6 @@
----
-
 # 💄 Página Web - Laura Arias Make Up Artist
 
-Proyecto web desarrollado para **Laura Arias make up artist**, donde se ha creado su **marca personal desde cero**, incluyendo diseño, estructura visual, colores y estilo general de la marca.
+Proyecto web desarrollado para la **make up artist Laura Arias**, donde se ha creado su **marca personal desde cero**, incluyendo diseño, estructura visual, colores y estilo general de la marca.  
 La web busca reflejar la elegancia, profesionalidad y creatividad del trabajo de Laura, ofreciendo a los visitantes una experiencia visual atractiva y fluida.
 
 ---
@@ -11,52 +9,52 @@ La web busca reflejar la elegancia, profesionalidad y creatividad del trabajo de
 
 El sitio está compuesto por **5 páginas principales**:
 
-1. **Inicio**
+1. **Inicio**  
    Presentación de Laura Arias, su filosofía y una introducción visual a su trabajo.
 
-2. **Galería**
+2. **Galería**  
    Muestra de trabajos realizados, con una selección de imágenes organizadas por estilos y eventos.
 
 3. **Servicios**
-   Descripción detallada de los servicios de maquillaje profesional que ofrece (social, novias, etc.).
+   Descripción detallada de los servicios de maquillaje profesional que ofrece (social, novias, sesiones de fotos, etc.).
 
-4. **Precios**
+4. **Precios**  
    Tabla o listado orientativo de precios, adaptado a los distintos tipos de servicios.
 
-5. **Contacto**
+5. **Contacto**  
    Formulario de contacto funcional conectado con **EmailJS**, permitiendo a los usuarios enviar consultas directamente a la artista.
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
-* **HTML5** → Estructura del contenido.
-* **CSS3 / Bootstrap 5** → Diseño responsive, componentes y estilo visual consistente.
-* **JavaScript** → Interactividad y dinamismo de la interfaz.
-* **EmailJS** → Integración del formulario de contacto sin necesidad de un backend propio.
+- **HTML5**
+- **CSS3 / Bootstrap 5**
+- **JavaScript**
+- **EmailJS**
 
 ---
 
 ## ⚙️ Funcionalidades Principales
 
-* Diseño **responsive**, adaptable a dispositivos móviles, tablets y ordenadores.
-* Envío de formularios de contacto mediante **EmailJS**.
-* Galería de imágenes optimizada.
-* Navegación fluida entre páginas mediante barra de menú.
-* Identidad visual personalizada para la marca **Laura Arias Make Up Artist**.
+- Diseño **responsive**, adaptable a dispositivos móviles, tablets y ordenadores.  
+- Envío de formularios de contacto mediante **EmailJS**.  
+- Galería de imágenes optimizada.  
+- Navegación fluida entre páginas mediante barra de menú.  
+- Identidad visual personalizada para la marca **Laura Arias Make Up Artist**.
 
 ---
 
 ## 🚀 Instalación y Uso
 
 1. **Clonar el repositorio:**
-
    ```bash
-   https://github.com/cosmincostea21/LauraAriasMakeUp.git
+   git clone https://github.com/tu-usuario/laura-arias-makeup.git
    ```
 
 2. **Abrir el proyecto:**
    Accede al directorio del proyecto y abre el archivo `index.html` en tu navegador.
+
 ---
 
 ## 🎨 Identidad Visual
@@ -85,19 +83,20 @@ laura-arias-makeup/
 │
 ├── /img
 │   └── (imágenes de la galería y recursos visuales)
-│ 
-├── /lib
-│   └── (Librerías)
-|
-├── /scss
-     └── (estilos)
-
+│
+└── /assets
+    └── (iconos, fuentes u otros recursos)
 ```
 
 ---
 
 ## 👩‍🎨 Créditos
 
-**Diseño y desarrollo web:** *Marius Cosmin Costea*
+**Diseño y desarrollo web:** [Tu nombre o el de tu equipo]
 **Cliente:** *Laura Arias – Make Up Artist*
 **Tecnologías:** Bootstrap · EmailJS · JavaScript
+
+---
+
+
+¿Quieres que te lo adapte al estilo de un **README de GitHub con emojis, formato más visual y secciones destacadas** (por ejemplo con badges de tecnologías)? Puedo hacerlo más llamativo.
