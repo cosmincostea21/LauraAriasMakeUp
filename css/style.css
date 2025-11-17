@@ -10,8 +10,6 @@
     background-color: #F8F7F4;
     -webkit-box-shadow: 1px 1px 12px #000;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
-    -webkit-transform: preserve-3d;
-    -ms-transform: preserve-3d;
     -webkit-perspective: 2000px;
     perspective: 2000px;
     display: -webkit-box;
